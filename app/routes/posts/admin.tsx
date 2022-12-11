@@ -22,7 +22,7 @@ const AdminRoute = () => {
       <div className="grid grid-cols-4 gap-6">
         <nav className="col-span-4 md:col-span-1">
           <ul>
-            {posts.map((post: typeof posts) => (
+            {posts.map((post) => (
               <li key={post.slug}>
                 <Link to={post.slug} className="text-blue-600 underline">
                   {post.title}

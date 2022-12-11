@@ -26,7 +26,7 @@ const PostRoute = () => {
         </Link>
       )}
       <ul>
-        {posts.map((post: typeof posts) => (
+        {posts.map((post) => (
           <li key={post.slug}>
             <Link
               to={post.slug}
