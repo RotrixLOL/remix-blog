@@ -1,4 +1,4 @@
-import type { Post } from "../../node_modules/.pnpm/@prisma+client@4.7.1_prisma@4.7.1/node_modules/.prisma/client";
+import type { Post } from "@prisma/client";
 import { prisma } from "~/db.server";
 
 export type { Post };
